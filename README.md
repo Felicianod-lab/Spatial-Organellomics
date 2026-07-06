@@ -1,4 +1,6 @@
-# Spatial Organellomics reproducibility hub
+# Spatial Organellomics hub
+
+<img width="531" height="540" alt="Picture2" src="https://github.com/user-attachments/assets/bd5e83be-549c-407e-837a-4cc36ea31cac" />
 
 This repository provides the resource map and manuscript-level analysis code for:
 
