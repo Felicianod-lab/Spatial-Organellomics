@@ -1,6 +1,7 @@
-# Spatial Organellomics hub
 
-<img width="531" height="540" alt="Picture2" src="https://github.com/user-attachments/assets/bd5e83be-549c-407e-837a-4cc36ea31cac" />
+# Spatial Organellomics hub
+<img width="1075" height="540" alt="Picture3" src="https://github.com/user-attachments/assets/15f3fab4-2522-4aea-9f9a-bc711be28c5d" />
+
 
 This repository provides the resource map and manuscript-level analysis code for:
 
