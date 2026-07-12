@@ -1,5 +1,5 @@
 """
-Clean Figure 1 PCA script.
+Figure 1 PCA script.
 
 Purpose
 -------
