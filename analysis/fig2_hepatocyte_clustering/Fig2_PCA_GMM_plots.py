@@ -1,6 +1,5 @@
 """
-Figure 2 PCA/GMM workflow - cleaned version with the same plot style/scale
-as the latest working notebook code.
+Figure 2 PCA/GMM workflow 
 
 This script intentionally preserves the visual choices from the original code:
 - seaborn `sns.set()` at import time
