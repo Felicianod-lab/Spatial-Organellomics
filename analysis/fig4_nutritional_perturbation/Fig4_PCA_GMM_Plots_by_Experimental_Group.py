@@ -28,7 +28,7 @@ plt.rcParams["figure.dpi"] = 500
 # -----------------------------------------------------------------------------
 # Use your combined CSV containing CNT, STV, and WD.
 # Example:
-INPUT_CSV = Path(r"C:\Users\felicianod\Desktop\1\second_round_reviwer_comments\CODE\Fig4\Full_data_perturbations.csv")
+INPUT_CSV = Path(r"...add path...\Full_data_perturbations.csv")
 
 
 # Choose the experiment(s) to run.
