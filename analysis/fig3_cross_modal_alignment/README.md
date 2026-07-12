@@ -1,4 +1,4 @@
-# fig3 cross modal alignment
+# fig3 Spatial distribution analyses and cross modal alignment
 
 ## Purpose
 
