@@ -1,4 +1,6 @@
-# figS22 shap
+# figS21-S22 Logistic-regression, Random-forest, and SHAP
+
+, Random-Forest and SHAP
 
 ## Purpose
 
