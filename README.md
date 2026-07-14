@@ -60,36 +60,6 @@ This repository contains manuscript-level code for:
 - intravital TMRM analysis
 - figure/source-data generation
 
-## Recommended repository layout
-
-```text
-analysis/
-  fig1_liver_pancreas_pca/
-  fig2_hepatocyte_clustering/
-  fig3_zonation_model_validation/
-  fig3_cross_modal_alignment/
-  fig4_nutritional_perturbation/
-  fig5_trajectory_tmrm/
-  fig6_prediction_models/
-  figS12_benchmarking/
-  figS22_shap/
-docs/
-  data_dictionary.md
-  figure_reproduction_guide.md
-  repository_map.md
-data_manifest.tsv
-code_manifest.tsv
-environment.yml
-release_notes.md
-```
-
-## Repository status
-
-This repository is associated with the Science revision of the manuscript above. The final release corresponding to the submitted manuscript will be tagged as:
-
-- Release: [insert release tag]
-- Archived DOI: [insert archived DOI]
-
 ## Citation
 
 Please cite the manuscript and the archived release DOI once available.
