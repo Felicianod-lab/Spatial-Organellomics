@@ -102,12 +102,6 @@ Twelve numbered figures (`00_baseline_CONSENSUS_OH_to_PH.png` through
 `Pipeline_parameters.csv`. The last of these records the settings used for the run and
 should be kept alongside the outputs.
 
-## Reproducibility notes
 
-- Cross-modal inference seed: `SEED = 0` ([line 44](Fig3_Cross_Modal_Inference_Analysis_and_Plots.py#L44)).
-- Niche metrics use two internal seeds, `2025` and `123` (lines [512](Fig3_figS13_Spatial_Organellomics_Niche_Metrics.py#L512) and [719](Fig3_figS13_Spatial_Organellomics_Niche_Metrics.py#L719)), plus `--point_seed` for plot jitter only.
-- Permutation and bootstrap counts affect runtime substantially. Validate with small values before running at publication settings.
-- `Fig3_Hepatocyte_Category_Spatial_Distribution_Plots.py` has no module docstring; its behavior is documented here only.
-- Category numbering follows the remapping tables written by the Fig. 2 workflow, not raw GMM component indices.
 
 [Back to the analysis index](../README.md)
