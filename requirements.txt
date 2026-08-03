@@ -45,10 +45,4 @@ umap-learn==0.5.5     # sc.pp.neighbors(method="umap")
 # --- Utilities ---
 tqdm==4.67.1
 
-# --- Optional ---
-# scikit-dimension provides the intrinsic-dimensionality estimate in
-# Fig2_Harmonized_Benchmarking_of_Leiden.py. It was NOT installed in the
-# environment used for the published analysis, so that metric was not computed
-# (the import is guarded and the function returns None). Uncomment only if you
-# want to enable it; note that doing so produces output the paper does not report.
-# scikit-dimension
+
