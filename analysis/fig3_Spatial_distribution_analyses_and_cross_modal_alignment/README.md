@@ -87,9 +87,16 @@ returns Simpson's dominance index and Shannon entropy per position bin.
 `fraction_explained_per_acinus_perm.csv`,
 `fraction_explained_group_bootstrap_summary.csv`,
 `norm_fraction_explained_group_bootstrap_summary.csv`,
-`violin_control_fraction_unexplained_pct_points.png`, plus diagnostic files
+ plus diagnostic files
 (`DEBUG_acinus_sizes_after_dropna.csv`, `DEBUG_na_counts_before_dropna.csv`,
 `DEBUG_README.txt`).
+Main plots:
+
+- `bar_norm_control_norm_adjacency_sig_points.png`
+- `bar_norm_control_norm_fraction_explained_points.png`
+- `bar_norm_control_norm_position_accuracy_points.png`
+- `bar_norm_control_norm_residual_morans_p_points.png`
+- `violin_control_fraction_unexplained_pct_points.png`
 
 ### Cross-modal inference
 Twelve numbered figures (`00_baseline_CONSENSUS_OH_to_PH.png` through
