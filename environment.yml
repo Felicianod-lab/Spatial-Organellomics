@@ -4,7 +4,7 @@
 #
 # Create with:
 #     conda env create -f environment.yml
-#     conda activate sorganellomics
+#     conda activate sOrganellomics
 #
 # Python provides the interpreter; every analysis package is installed via pip
 # with exact pins from requirements.txt. This is deliberate: the recorded
