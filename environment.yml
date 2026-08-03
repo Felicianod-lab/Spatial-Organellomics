@@ -1,0 +1,26 @@
+# Spatial-Organellomics — conda environment matching the published analysis
+#
+# Captured from the analysis environment on Windows, Python 3.9.21.
+#
+# Create with:
+#     conda env create -f environment.yml
+#     conda activate sorganellomics
+#
+# Python provides the interpreter; every analysis package is installed via pip
+# with exact pins from requirements.txt. This is deliberate: the recorded
+# versions are the ones pip resolved in the original environment, so installing
+# them the same way avoids conda/pip channel drift.
+#
+# Python 3.9 reached end-of-life in October 2025. It is pinned here because it is
+# what the published results were produced with, not as a recommendation.
+
+name: sorganellomics
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.9.21
+  - pip
+  - pip:
+      - -r requirements.txt

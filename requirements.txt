@@ -1,0 +1,54 @@
+# Spatial-Organellomics — exact environment used to produce the published figures
+#
+# Captured from the analysis environment on Windows, Python 3.9.21.
+# These are the versions the results were generated with. This file IS the lock
+# file: pins are exact (==) on purpose. Do not relax them to >= — several of the
+# pairings below are specific, and newer releases change clustering defaults.
+#
+# Install:
+#     python -m pip install -r requirements.txt
+#
+# Python 3.9.21. Note that Python 3.9 reached end-of-life in October 2025; it is
+# recorded here because it is what was used, not as a recommendation for new work.
+
+# --- Core scientific stack ---
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.10.1
+
+# --- Plotting ---
+matplotlib==3.7.1
+seaborn==0.13.2
+
+# --- Machine learning / statistics ---
+scikit-learn==1.6.1
+statsmodels==0.13.5
+patsy==1.0.1
+joblib==1.4.2
+shap==0.46.0
+
+# --- Deep learning (MLP models, Fig. 6) ---
+# CPU/GPU build varies by platform. If you need a specific CUDA build, install
+# torch first using the selector at https://pytorch.org/get-started/locally/,
+# then install the remainder of this file.
+torch==2.2.1
+
+# --- Single-cell / benchmarking (Fig. 2 harmonized benchmarking) ---
+anndata==0.10.9
+scanpy==1.10.3
+
+# Required by the code but NOT installed automatically by scanpy:
+leidenalg==0.10.2     # sc.tl.leiden
+igraph==0.11.5        # sc.tl.leiden(flavor="igraph")
+umap-learn==0.5.5     # sc.pp.neighbors(method="umap")
+
+# --- Utilities ---
+tqdm==4.67.1
+
+# --- Optional ---
+# scikit-dimension provides the intrinsic-dimensionality estimate in
+# Fig2_Harmonized_Benchmarking_of_Leiden.py. It was NOT installed in the
+# environment used for the published analysis, so that metric was not computed
+# (the import is guarded and the function returns None). Uncomment only if you
+# want to enable it; note that doing so produces output the paper does not report.
+# scikit-dimension

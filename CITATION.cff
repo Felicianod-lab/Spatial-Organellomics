@@ -1,0 +1,86 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite both this software and the associated paper (see preferred-citation)."
+type: software
+title: "Spatial-Organellomics: manuscript analysis code"
+abstract: >-
+  Reproducibility hub and manuscript-level analysis code for the spatial
+  Organellomics (sOrganellomics) study of multi-organelle architecture in mouse
+  liver and pancreas. Contains Python analysis scripts organized by figure,
+  covering cross-organ principal component analysis, Gaussian mixture model
+  clustering of hepatocyte organelle signatures, selection of optimal cluster
+  number and principal components, harmonized benchmarking of Gaussian mixture
+  and Leiden clustering against spatial molecular datasets, organelle feature
+  heatmaps and subtype proportions, ANOVA / Levene / Welch / Games-Howell
+  pairwise testing, spatial distribution and niche metrics, cross-modal
+  proteomic alignment and proteome inference, heterogeneity indices for
+  nutritional perturbation, probabilistic trajectory inference from control to
+  fasted states, intravital TMRM grouping and structure-function coupling,
+  multilayer perceptron prediction of nutritional state and early MASLD
+  progression, and logistic regression, random forest and SHAP feature-importance
+  analyses. This repository also links the reusable liv_zones segmentation and
+  feature-extraction workflow, the processed source data deposited on Figshare,
+  and the reused public spatial proteomic and transcriptomic datasets.
+version: 1.0.0
+date-released: "2026-08-03"
+license: MIT
+repository-code: "https://github.com/Felicianod-lab/Spatial-Organellomics"
+url: "https://github.com/Felicianod-lab/Spatial-Organellomics"
+keywords:
+  - spatial organellomics
+  - organelle architecture
+  - reproducibility
+  - liver zonation
+  - hepatocyte heterogeneity
+  - Gaussian mixture model
+  - cross-modal alignment
+  - spatial proteomics
+  - trajectory inference
+  - machine learning
+  - SHAP
+  - intravital microscopy
+  - MASLD
+
+authors:
+  - family-names: "Feliciano"
+    given-names: "Daniel"
+    orcid: "https://orcid.org/0000-0003-4742-4006"
+    affiliation: "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA 20147, USA"
+    email: "felicianod@janelia.hhmi.org"
+  - family-names: "Adhikari"
+    given-names: "Raghabendra"
+    orcid: "https://orcid.org/0009-0007-8561-4456"
+    affiliation: "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA 20147, USA"
+  - family-names: "Hillsley"
+    given-names: "Alexander"
+    orcid: "https://orcid.org/0000-0001-7920-2104"
+    affiliation: "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA 20147, USA; Chan Zuckerberg Biohub, San Francisco, CA, USA"
+
+preferred-citation:
+  type: article
+  status: in-press
+  title: "Multi-organelle signatures map cell state diversity and metabolic adaptation in tissues"
+  journal: "Science"
+  year: 2026
+  authors:
+    - family-names: "Adhikari"
+      given-names: "Raghabendra"
+      affiliation: "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA 20147, USA"
+    - family-names: "Hillsley"
+      given-names: "Alexander"
+      affiliation: "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA 20147, USA; Chan Zuckerberg Biohub, San Francisco, CA, USA"
+    - family-names: "Johnson"
+      given-names: "Alana Dowdell"
+      affiliation: "Howard University, Washington, DC 20059, USA"
+    - family-names: "Gao"
+      given-names: "Shihong Max"
+      affiliation: "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA 20147, USA"
+    - family-names: "Espinosa-Medina"
+      given-names: "Isabel"
+      affiliation: "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA 20147, USA"
+    - family-names: "Funke"
+      given-names: "Jan"
+      affiliation: "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA 20147, USA"
+    - family-names: "Feliciano"
+      given-names: "Daniel"
+      affiliation: "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA 20147, USA"
+      email: "felicianod@janelia.hhmi.org"
