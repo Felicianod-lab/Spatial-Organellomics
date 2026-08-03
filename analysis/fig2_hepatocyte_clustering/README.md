@@ -1,4 +1,4 @@
-# Fig2. Hepatocyte clustering
+# Fig.2 Hepatocyte clustering
 
 ## Purpose
 
