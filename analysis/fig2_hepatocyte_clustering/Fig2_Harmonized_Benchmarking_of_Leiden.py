@@ -1178,7 +1178,7 @@ def parse_args():
     p = argparse.ArgumentParser(description="Comparative : RNA vs Protein vs Organelle (Three Modalities)")
     p.add_argument('--rna', default='...add path.../figure2_benchmark_Transcriptomics_input_matrix.csv', help='Path to RNA CSV (first col cell_id, last col excluded metadata).')
     p.add_argument('--protein', default='...add path.../figure2_benchmark_Proteomics_input_matrix.csv', help='Path to Protein CSV (first col cell_id, last col excluded metadata).')
-    p.add_argument('--organelle', default='...add path.../figure2_benchmark_Organellomics_input_matrix.csv.csv', help='Path to Organelle CSV (first col cell_id, last col excluded metadata).')
+    p.add_argument('--organelle', default='...add path.../figure2_benchmark_Organellomics_input_matrix.csv', help='Path to Organelle CSV (first col cell_id, last col excluded metadata).')
     p.add_argument('--outdir', default='results', help='Output directory (default: results)')
 
     # Preprocess options
