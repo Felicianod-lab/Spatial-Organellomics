@@ -42,6 +42,5 @@ See [`../requirements.txt`](../requirements.txt) for exact pinned versions and
 
 ## Conventions
 
-- **Seeds.** PCA uses `42` and GMM uses `54` throughout the clustering workflows. Exceptions and additional seeds are noted in each subfolder README. The two Fig. 6 MLP scripts set no seed and are not deterministic.
 - **Category labels.** GMM component indices are remapped for display so that categories order sensibly along the acinar axis. Always use the saved remapping and PC1-orientation tables rather than raw component numbers.
 - **Paths with spaces.** Two filenames and one folder name contain spaces or commas. Quote them in the shell.
