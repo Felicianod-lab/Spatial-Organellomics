@@ -14,7 +14,7 @@
 # Python 3.9 reached end-of-life in October 2025. It is pinned here because it is
 # what the published results were produced with, not as a recommendation.
 
-name: sorganellomics
+name: sOrganellomics
 
 channels:
   - conda-forge
