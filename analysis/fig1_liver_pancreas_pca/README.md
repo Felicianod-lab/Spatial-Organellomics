@@ -1,4 +1,4 @@
-# fig1 liver and pancreas pca
+# Fig1. Liver and Pancreas PCA
 
 ## Purpose
 
