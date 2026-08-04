@@ -23,7 +23,7 @@ number where each path is set.
 | Fig. 4 | [`fig4_nutritional_perturbation`](../analysis/fig4_nutritional_perturbation/) | `Fig4_Optimal_Cluster_PCs_Selection_and_PCA_for_All_Experimental_Groups.py` | `Full_data_perturbations.csv` | Per-condition cluster/PC selection, `overall_experiment_cluster_selection_summary.csv` |
 | Fig. 4 | 〃 | `Fig4_PCA_GMM_Plots_by_Experimental_Group.py` | 〃 | Per-condition PCA/GMM panels, `FULL_CONCAT_clusters.csv`, `combineHD_pittsburgh_indices.csv` |
 | Fig. 4 | 〃 | `Fig4_Pittsburgh_H_D_Plots.py` | `combineHD_pittsburgh_indices.csv` *(generated locally)* | Heterogeneity (H) and dominance (D) curves, percent-change panels |
-| Fig. 5 | [`fig5_trajectory_tmrm`](../analysis/fig5_trajectory_tmrm/) | `Fig5_Trajectory_Inference_from_Control_to_Fatsed.py` | `Fig5_Perturbation_Data_Matrix.csv` | Best-pair ranking, hub selection, `pseudotime.csv`, `cells_with_pseudotime_H4_FH_only.csv`, root-sensitivity tables |
+| Fig. 5 | [`fig5_trajectory_tmrm`](../analysis/fig5_trajectory_tmrm/) | `Fig5_Trajectory_Inference_from_Control_to_Fasted.py` | `Fig5_Perturbation_Data_Matrix.csv` | Best-pair ranking, hub selection, `pseudotime.csv`, `cells_with_pseudotime_H4_FH_only.csv`, root-sensitivity tables |
 | Fig. 5 | 〃 | `Fig5_Trajectories_and PC1_Plots.py` | `cells_with_pseudotime_H4_FH_only.csv` *(generated locally)* + `Full_data_perturbations.csv` | `PC1_vs_Pseudotime.png`, `PC1_Loadings.png`, `PC1_Spatial_Modulation.png`, PCA loadings |
 | Fig. 5 | 〃 | `Fig5_Control_to_Fasted_Mixed_Model_Mitochondria_Analysis_and_Plots.py` | `Fig5_IVM_Control_Group_Mitochondria_Properties.csv` + `Fig5_IVM_Fasted_Group_Mitochondria_Properties.csv` | Mixed model with liver and tile random effects (displayed; not written to disk) |
 | Fig. 5 | 〃 | `Fig5_IVM_TMRM_Grouping_and_Heterogeneity.py` | 〃 | GMM on TMRM, state distribution, entropy (displayed; not written to disk) |
@@ -55,7 +55,7 @@ producers first:
    → needed by `Fig2_Organelle_Feature_Heatmaps.py`, `Fig2_Organelle_Subtype_Proportion_Bars.py`, `Fig2_Support_ANOVA_...py`, `Fig3_Hepatocyte_Category_Histograms.py`, `Fig3_Spatial_Proteomics_and_Organellomics_PHI_Plots.py`
 2. `Fig4_PCA_GMM_Plots_by_Experimental_Group.py` → `combineHD_pittsburgh_indices.csv`
    → needed by `Fig4_Pittsburgh_H_D_Plots.py`
-3. `Fig5_Trajectory_Inference_from_Control_to_Fatsed.py` → `cells_with_pseudotime_H4_FH_only.csv`
+3. `Fig5_Trajectory_Inference_from_Control_to_Fasted.py` → `cells_with_pseudotime_H4_FH_only.csv`
    → needed by `Fig5_Trajectories_and PC1_Plots.py`
 
 All other scripts are independent and can be run in any order.
