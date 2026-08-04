@@ -31,7 +31,7 @@ Several scripts consume files produced by others. Run in this order:
 
 1. `fig2_hepatocyte_clustering/Fig2_PCA_GMM_plots.py` → produces `FULL_CONCAT_clusters.csv`, required by parts of Fig. 2 and Fig. 3
 2. `fig4_nutritional_perturbation/Fig4_PCA_GMM_Plots_by_Experimental_Group.py` → produces `combineHD_pittsburgh_indices.csv`, required by `Fig4_Pittsburgh_H_D_Plots.py`
-3. `fig5_trajectory_tmrm/Fig5_Trajectory_Inference_from_Control_to_Fatsed.py` → produces `cells_with_pseudotime_H4_FH_only.csv`, required by `Fig5_Trajectories_and PC1_Plots.py`
+3. `fig5_trajectory_tmrm/Fig5_Trajectory_Inference_from_Control_to_Fasted.py` → produces `cells_with_pseudotime_H4_FH_only.csv`, required by `Fig5_Trajectories_and PC1_Plots.py`
 
 Everything else can be run independently.
 
