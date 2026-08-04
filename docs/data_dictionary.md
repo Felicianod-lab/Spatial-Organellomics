@@ -124,7 +124,7 @@ order in [`figure_reproduction_guide.md`](figure_reproduction_guide.md).
 | `Clean_Data.csv` | `Fig2_PCA_GMM_plots.py` |
 | `FULL_CONCAT_clusters.csv` | `Fig2_PCA_GMM_plots.py`; a per-condition version by `Fig4_PCA_GMM_Plots_by_Experimental_Group.py` |
 | `combineHD_pittsburgh_indices.csv` | `Fig4_PCA_GMM_Plots_by_Experimental_Group.py` |
-| `cells_with_pseudotime_H4_FH_only.csv` | `Fig5_Trajectory_Inference_from_Control_to_Fatsed.py` |
+| `cells_with_pseudotime_H4_FH_only.csv` | `Fig5_Trajectory_Inference_from_Control_to_Fasted.py` |
 
 ## Derived index columns
 
