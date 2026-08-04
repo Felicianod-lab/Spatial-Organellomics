@@ -73,7 +73,7 @@ systematic: `[type_N_]<organelle>_<measurement>`.
 | `percent_type_N_<organelle>` | Fraction of that organelle class assigned to subtype N |
 
 > **Units are set at feature-extraction time in Liv-Zones and are not converted anywhere
-> in this repository.
+> in this repository.**
 
 ### Intravital (IVM) tables
 
