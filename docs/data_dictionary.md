@@ -5,7 +5,6 @@ Describes the processed data files used by the analysis scripts in this reposito
 **Deposit:** https://doi.org/10.25378/janelia.32717316
 **Representative raw images:** https://doi.org/10.25378/janelia.31863250
 
-A machine-readable index of the same files is in [`data_manifest.tsv`](data_manifest.tsv).
 
 All files are UTF-8 comma-separated text (`.csv`) with a single header row.
 
