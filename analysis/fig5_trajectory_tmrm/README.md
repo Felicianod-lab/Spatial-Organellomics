@@ -24,7 +24,7 @@ IVM mitochondria + lipid-droplet property tables (control, fasted)
 
 | Script | Required file or files | Where the path is supplied |
 |---|---|---|
-| [`Fig5_Trajectory_Inference_from_Control_to_Fatsed.py`](Fig5_Trajectory_Inference_from_Control_to_Fatsed.py) | `Full_data_perturbations.csv` | Pass `--input` ([line 2365](Fig5_Trajectory_Inference_from_Control_to_Fatsed.py#L2365)) |
+| [`Fig5_Trajectory_Inference_from_Control_to_Fasted.py`](Fig5_Trajectory_Inference_from_Control_to_Fasted.py) | `Full_data_perturbations.csv` | Pass `--input` ([line 2365](Fig5_Trajectory_Inference_from_Control_to_Fasted.py#L2365)) |
 | [`Fig5_Trajectories_and PC1_Plots.py`](Fig5_Trajectories_and%20PC1_Plots.py) | `cells_with_pseudotime_H4_FH_only.csv`<br>`Full_data_perturbations.csv` | `PSEUDOTIME_FILE` at [line 34](Fig5_Trajectories_and%20PC1_Plots.py#L34), `FULL_DATA_FILE` at [line 38](Fig5_Trajectories_and%20PC1_Plots.py#L38) |
 | [`Fig5_Control_to_Fasted_Mixed_Model_Mitochondria_Analysis_and_Plots.py`](Fig5_Control_to_Fasted_Mixed_Model_Mitochondria_Analysis_and_Plots.py) | `Fig5_IVM_Control_Group_Mitochondria_Properties.csv`<br>`Fig5_IVM_Fasted_Group_Mitochondria_Properties.csv` | `control_path` and `fasted_path` at [lines 17–18](Fig5_Control_to_Fasted_Mixed_Model_Mitochondria_Analysis_and_Plots.py#L17-L18) |
 | [`Fig5_IVM_TMRM_Grouping_and_Heterogeneity.py`](Fig5_IVM_TMRM_Grouping_and_Heterogeneity.py) | same two IVM mitochondria tables | inline `pd.read_csv` calls at [lines 18](Fig5_IVM_TMRM_Grouping_and_Heterogeneity.py#L18) and [23](Fig5_IVM_TMRM_Grouping_and_Heterogeneity.py#L23) |
@@ -46,7 +46,7 @@ correctly.
 Only the trajectory inference script has a command-line interface:
 
 ```bash
-python Fig5_Trajectory_Inference_from_Control_to_Fatsed.py \
+python Fig5_Trajectory_Inference_from_Control_to_Fasted.py \
   --input /path/to/Full_data_perturbations.csv \
   --output-dir fig5_trajectory_outputs \
   --label-col labels --cat-col Prediction \
