@@ -116,7 +116,7 @@ Paper:
 
 > Adhikari, R., Hillsley, A., Johnson, A. D., Gao, S. M., Espinosa-Medina, I.,
 > Funke, J., Feliciano, D. Multi-organelle signatures map cell state diversity
-> and metabolic adaptation in tissues. (2026).
+> and metabolic adaptation in tissues, (2026).
 
 ## License
 
