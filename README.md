@@ -38,8 +38,8 @@ are included in both environment files.
 The Liv-Zones pipeline for cell and organelle segmentation, feature extraction, example data, trained models, and tutorials is available at:
 
 - GitHub: https://github.com/ahillsley/liv_zones
-- Release: [insert release tag, e.g. v1.0.0]
-- Archived DOI: [insert Zenodo DOI]
+- Release: liv_zones v1.0.0
+- Archived DOI: https://doi.org/10.5281/zenodo.21808753
   
 The pipeline is intended to be applied to new datasets. Note that transferring it to a second tissue in this study required retraining the segmentation models and adding tissue-specific postprocessing for clustered pancreatic peroxisomes; adapting it to other tissues should be expected to need comparable hands-on work.
 
@@ -110,13 +110,13 @@ metadata is in [`CITATION.cff`](CITATION.cff); GitHub renders it via the
 Software:
 
 > Feliciano, D., Adhikari, R., Hillsley, A. Spatial-Organellomics: manuscript
-> analysis code (v1.0.0). Zenodo. [insert Zenodo DOI]
+> analysis code (v1.0.0). 
 
 Paper:
 
 > Adhikari, R., Hillsley, A., Johnson, A. D., Gao, S. M., Espinosa-Medina, I.,
 > Funke, J., Feliciano, D. Multi-organelle signatures map cell state diversity
-> and metabolic adaptation in tissues.  (2026).
+> and metabolic adaptation in tissues. (2026).
 
 ## License
 
