@@ -43,13 +43,10 @@ The Liv-Zones pipeline for cell and organelle segmentation, feature extraction, 
   
 The pipeline is intended to be applied to new datasets. Note that transferring it to a second tissue in this study required retraining the segmentation models and adding tissue-specific postprocessing for clustered pancreatic peroxisomes; adapting it to other tissues should be expected to need comparable hands-on work.
 
+**Cell-linking**
 
-### Cell-linking package
+Within Liv-Zones `track_z_pos.py` links cells across z-slices using `motile` (v0.2.1) and `motile_toolbox` (v0.2.3).
 
-`motile` was used for linking cells across z-slices:
-
-- GitHub: https://github.com/funkelab/motile
-- Version used: [insert version, e.g. 0.4.0]
 
 ### Processed data and source files
 
