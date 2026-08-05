@@ -99,6 +99,6 @@ they do not write files to disk. Capture the console output if you need a record
 - PC1 plots: features are retained at `|Spearman rho| >= FEATURE_RHO_THRESHOLD`, set to `0.3`; the pseudotime column is `pseudotime_full` ([lines 47–48](Fig5_Trajectories_and%20PC1_Plots.py#L47-L48)).
 - The best-pair plot uses an initial pseudotime root (default CNT category 3, i.e. H4). The final saved pseudotime is then **recomputed** using the selected hub as root. The two are intentionally different; do not assume the plot and the saved CSV share a root.
 - Two scripts have no module docstring (`Fig5_Control_to_Fasted_Mixed_Model_...`, `Fig5_IVM_TMRM_Grouping_...`); their behavior is documented here only.
-- The filename `Fig5_Trajectory_Inference_from_Control_to_Fatsed.py` contains a typo for "Fasted", and `Fig5_Trajectories_and PC1_Plots.py` contains a space. Quote these paths in the shell.
+- The filename `Fig5_Trajectory_Inference_from_Control_to_Fasted.py` contains a typo for "Fasted", and `Fig5_Trajectories_and PC1_Plots.py` contains a space. Quote these paths in the shell.
 
 [Back to the analysis index](../README.md)
