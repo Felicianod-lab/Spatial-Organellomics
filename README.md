@@ -108,9 +108,10 @@ metadata is in [`CITATION.cff`](CITATION.cff); GitHub renders it via the
 "Cite this repository" button in the sidebar.
 
 Software:
-
+> 
 > Feliciano, D., Adhikari, R., Hillsley, A. Spatial-Organellomics: manuscript
-> analysis code (v1.0.0). 
+> analysis code (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.21810468
+ 
 
 Paper:
 
